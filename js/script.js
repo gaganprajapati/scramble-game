@@ -199,7 +199,7 @@ function scramble(){
 
 $(".game-inner-div").click(function(){
     if(!timeOn){
-        interval = setInterval("addCentiSec()", 10);
+        interval = setInterval(addCentiSec(), 10);
         timeOn = true;
     }
 });
