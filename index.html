@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Puzzle | Numbers</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="game-board">
+    <div class="timer-div">
+        <div class="timer-in-div">
+            <div id="centi-sec" class="time-value">00</div>
+            <div class="time-value">:</div>
+            <div id="sec" class="time-value">00</div>
+            <div class="time-value">:</div>
+            <div id="min" class="time-value">00</div>
+        </div>
+    </div>
+
+    <div class="game-outer-div">
+        <div class="game-inner-div">
+            <div class="squares" id="s1" onclick="swap('s1')">
+                1
+            </div>
+            <div class="squares" id="s2" onclick="swap('s2')">
+                2
+            </div>
+            <div class="squares" id="s3" onclick="swap('s3')">
+                3
+            </div>
+            <div class="squares" id="s4" onclick="swap('s4')">
+                4
+            </div>
+            <div class="squares" id="s5" onclick="swap('s5')">
+                5
+            </div>
+            <div class="squares" id="s6" onclick="swap('s6')">
+                6
+            </div>
+            <div class="squares" id="s7" onclick="swap('s7')">
+                7
+            </div>
+            <div class="squares" id="s8" onclick="swap('s8')">
+                8
+            </div>
+
+        </div>
+    </div>
+
+    <div class="button-div">
+        <button id="scramble-btn" onclick="scramble()">Scramble</button>
+    </div>
+</div>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>-->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
