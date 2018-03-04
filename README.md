@@ -1,6 +1,6 @@
 # Number Scramble Game
 In this game you first need to scramble the board. Then you need to arrange the numbers in series.  
-[DEMO](https://jsfiddle.net/gaganprajapati/23qLntq4/)
+[DEMO](https://gaganprajapati.github.io/scramble-game/)
 
 # Whats the Goal?
 You have set the numbers in series order after scrambling. Below is the goal image.
